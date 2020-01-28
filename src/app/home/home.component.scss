@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Open+Sans&display=swap');
+main{
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    background-color:#9194A0 !important;
+    font-family: 'Open Sans', sans-serif;
+  .navbar-brand{
+    font-family: 'Zhi Mang Xing', cursive;
+  }
+}
+.single-column{
+ background-color: #9194A0;
+
+   .welcome-text{
+       text-align: center;
+       font-family: 'Bangers', cursive;
+
+   }
+}
+
+.single-column figure {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+ img {
+    width:100%;
+    height: 40rem;
+    text-align: center;
+    margin-left: 0;
+    border: 0;
+    }
+
+}
+
+.multiple-columns{
+display: grid;
+margin-left:1rem;
+margin-top: 4rem;
+grid-template-columns: repeat(2, 50%);
+grid-template-rows: repeat(3,40rem);
+grid-template-areas: 
+   "fitness-article fitness-img " 
+   "food-img food-article "
+   "sport-article sport-img ";
+
+  .fitness-img{
+grid-area: fitness-img;
+  }
+  .sport-img{
+grid-area: sport-img;
+  }
+  .food-img{
+grid-area: food-img;
+  }
+  .fitness-article{
+grid-area: fitness-article;
+
+  }
+  .sport-article{
+grid-area: sport-article;
+  }
+  .food-article{
+grid-area: food-article;
+  }
+
+   figure{
+     margin-bottom: 4rem;
+
+   } 
+   article{
+    margin-bottom: 4rem;
+    text-align: center;
+ 
+   }
+
+   figure img{
+        width: 90%;
+        height: 30rem;
+        text-align: center;
+        border-radius: .9rem;;
+
+    
+    }
+
+    h2{
+        font-family: 'Bangers', cursive;
+
+    }
+
+}
+
+
+
+
+nav div #top-navigation{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 60%;
+}
+
+.about{
+    text-align: center;
+    margin: 4rem 0; 
+    font-family: 'Bangers', cursive;
+
+}
+
+
+footer{
+    background-color: #0B2E4E;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem) ;
+    grid-template-rows: 20rem;
+    justify-content: center;
+     
+    hr{
+        color: white;
+    }
+
+}
