@@ -11,7 +11,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item top-navigation-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" [routerLink]="['/about']">About</a>
       </li>
       <li class="nav-item top-navigation-item">
         <a class="nav-link" href="#">Event</a>
@@ -94,9 +94,23 @@
     </article>
   </section>
   
+  <section class="newsletter">
+     <article>
+       <h3>Get the latest of our exciting offers with our newsletter</h3>
+       <input type="email" name="email" id="email" aria-label="email" placeholder="Email">
+       <input type="button" value="SUBSCRIBE" aria-label="Subscribe">
+     </article>
+     <article>
+       <h3>For any enquiry</h3>
+       <p>180 588 555</p>
+       <p>(Toll Free)</p>
+     </article>
+  </section>
+
 </main>
   <!-- footer -->
-<footer class=''>
+  <footer>
+<section class='footer'>
   <article class='address'>
     <h3>Address</h3>
  <small> 434 Edwin oraedu street, wuse, abuja 901101 </small>
@@ -120,6 +134,8 @@
      <li>linkedin</li>
    </ul>
   </article>
-
-  <hr>
+</section>
+<div class='hr'>
+  <small>  stayFIT &copy;2019.All rights reserved </small>
+</div>
 </footer>
